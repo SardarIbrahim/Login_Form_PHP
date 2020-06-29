@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.btn-submit {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+  transition: all 1s;
+  border: none;
+}
+
+.btn-submit:hover {
+  background-color: #ffbc00;
+  cursor: pointer;
+}
+
+.btn-block {
+  text-align: center;
+  display: inline-block;
+  font-size: 1.1rem;
+  width: 50%;
+}
+
+.container h2 {
+  margin: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card {
+  background-color: rgb(250, 250, 246);
+}
+
+.form-group {
+  margin-right: 280px;
+  margin-left: 280px;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  display: block;
+  width: 100%;
+}
+
+.form-group input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.form-group input:focus {
+  outline: none;
+}
+
+.form-group .btn-submit {
+  float: right;
+}

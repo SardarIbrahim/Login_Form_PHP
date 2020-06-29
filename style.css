@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  background-color: rgb(243, 240, 236);
+}
+
+header {
+  background-color: #444;
+  padding: 20px 0 20px 0;
+  color: white;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+span {
+  color: #ffbc00;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* UL */
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px transparent solid;
+  transition: all 1s;
+  display: inline-block;
+  padding: 8px;
+}
+/* INputs */
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+}
+
+input[type="email"] {
+  border: none;
+}
+
+input[type="text"]:focus {
+  border-bottom: 2px solid #ffbc00;
+}
+input[type="email"]:focus {
+  border-bottom: 2px solid #ffbc00;
+}
+input[type="password"]:focus {
+  border-bottom: 2px solid #ffbc00;
+}
+
+.btn-login,
+.btn-sign-up {
+  padding: 8px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  border: none;
+  transition: all 1s;
+  font-size: 1.2rem;
+  border-bottom: 2px solid transparent;
+}
+
+.btn-login:hover {
+  color: #ffbc00;
+}
+
+/* Animate Class */
+
+.animate {
+  text-align: center;
+  color: #ffbc00;
+  background-color: #444;
+  padding: 50px;
+  transform: translateX(-50%);
+  animation: animate 1s forwards ease-in-out;
+}
+
+@keyframes animate {
+  to {
+    transform: translateX(0);
+  }
+}
